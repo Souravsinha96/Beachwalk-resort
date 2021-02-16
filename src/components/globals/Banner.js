@@ -45,7 +45,6 @@ const Banner = ({ className, title, text, greeting, children }) => {
 const BannerWrapper = styled(Banner)`
   background: rgba(0, 0, 0, 0.7);
   text-align: center;
-  border-radius: 20px;
   padding: ${setRem(60)} ${setRem(32)};
   letter-spacing: ${setLetterSpacing(3)};
   color: ${setColor.mainWhite};
