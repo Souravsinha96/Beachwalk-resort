@@ -31,3 +31,6 @@ export const PrimaryBtn = styled.button`
     outline: none;
   }
 `;
+export const SmallBtn = styled(PrimaryBtn)`
+  padding: ${setRem(9)} ${setRem(12)};
+`;

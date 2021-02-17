@@ -53,13 +53,17 @@ const AboutCenter = styled.div`
   }
   width: 90vw;
   margin: 0 auto;
-  ${media.desktop`
+  ${media.large`
   width:100vw;
   max-width: 1170px;
   display:grid;
   grid-template-columns:1fr 1fr;
   grid-column-gap:${setRem(32)};
-  .about-img{
+  .about-img,
+  .about-info {
+    padding: ${setRem(0)};
+  }
+  .about-img,.about-info{
       align-self:center;
   }
   .about-info{
@@ -67,6 +71,6 @@ const AboutCenter = styled.div`
           width:80%;
       }
   }
-  `}
+  `};
 `;
 export default About;
